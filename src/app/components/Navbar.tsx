@@ -1,6 +1,6 @@
 import { Lato } from "next/font/google";
 
-const lato = Lato({ weight: "100", subsets: ["latin"] });
+const lato = Lato({ weight: "400", subsets: ["latin"] });
 
 export const Navbar = () => {
     return (
@@ -10,7 +10,7 @@ export const Navbar = () => {
                     <div className="text-2xl uppercase font-semibold">
                         Landing Page 1
                     </div>
-                    <div className={`flex items-center space-x-4 uppercase font-thin ${lato.className}`}>
+                    <div className={`flex items-center space-x-4 uppercase ${lato.className}`}>
                         <div>Features</div>
                         <div>About</div>
                         <div>Services</div>
