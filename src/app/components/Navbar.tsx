@@ -4,7 +4,7 @@ const lato = Lato({ weight: "100", subsets: ["latin"] });
 
 export const Navbar = () => {
     return (
-        <div className="shadow-md fixed border bg-white w-full">
+        <div className="shadow-md fixed z-10 border bg-white w-full">
             <div className="max-w-screen-xl mx-auto">
                 <div className="p-6 flex items-center justify-between">
                     <div className="text-2xl uppercase font-semibold">
